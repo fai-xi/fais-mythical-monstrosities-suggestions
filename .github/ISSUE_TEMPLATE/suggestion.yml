@@ -1,0 +1,52 @@
+name: 🌟 Feature / Gameplay Suggestion
+description: Suggest a new idea for Fai’s Mythical Monstrosities
+labels: ["suggestion"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Short title
+      placeholder: "Blood Moon boss encounter"
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe your idea
+      description: Explain the concept clearly.
+      placeholder: "I think it would be cool if..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Fakemon
+        - Ability / Move
+        - Event / Structure
+        - Gameplay mechanic
+        - Balance / QoL
+        - Lore / Visual
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details (optional)
+      description: Mechanics, balance thoughts, visuals, lore, etc.
+      placeholder: "Stats, behavior, conditions, etc."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked for duplicate suggestions
+          required: true
+        - label: This is not a bug report
+          required: true
