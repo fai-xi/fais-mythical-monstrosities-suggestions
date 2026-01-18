@@ -17,7 +17,7 @@ You’re in the right place ✨
 Please **do not** submit:
 - 🐛 Bug reports or crashes  
   → Please use the **issues repo** instead!  
-  https://github.com/fai-xi/fais-mythical-monstrosities-issues
+🐞 [Issue Tracker](https://github.com/fai-xi/fais-mythical-monstrosities-issues)
 - ❓ Tech support or setup help
 - 🚨 Urgent problems
 - 📦 Modpack or redistribution requests
